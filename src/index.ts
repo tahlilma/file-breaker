@@ -1,4 +1,5 @@
-// #!/usr/bin/env node
+// Include this line at the top of the JS file after build
+// #!/usr/bin/env node 
 
 import fs from 'fs';
 
