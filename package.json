@@ -1,0 +1,21 @@
+{
+  "name": "file-breaker",
+  "version": "1.2.0",
+  "description": "A cli which corrupts your files.",
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "typescript": "^4.3.4"
+  },
+  "bin": {
+    "corrupt": "./build/index.js"
+  }
+}
